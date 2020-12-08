@@ -10,6 +10,7 @@
 #define INCLUDE_MAIN_H_
 
 /* FreeRTOS kernel includes. */
+#include <display.h>
 #include <lcd_lib.h>
 #include "FreeRTOS.h"
 #include "task.h"
@@ -23,9 +24,10 @@
 #include "board.h"
 #include "pin_mux.h"
 #include "stddef.h"
-//#include "teclado2.h"
+#include "teclado2.h"
+#include "display.h"
+#include "interprete.h"
 //#include "serial.h"
-//#include "rtc.h"
-#include "my_lcd.h"
+#include "rtc.h"
 
 #endif /* INCLUDE_MAIN_H_ */
